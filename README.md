@@ -14,6 +14,8 @@ Deployment plan
  Security Group open ports 22
  Connect to instance manually and deploy Stress Test software
 
+ Key with name "capstone.pem" required to reproduce.
+
  NOTE: Security credentials configured with aws-cli (aws configure)
  and saved in ~/.aws/credentials upon running tf script system asks 
  for profile and it is "default". For unattended run use "terraform apply -var profile=default -auto-approve"
